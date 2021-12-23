@@ -1,0 +1,137 @@
+.todoApp {
+  box-shadow: 0px 0px 11px 4px rgba(0, 0, 0, 0.68);
+  -webkit-box-shadow: 0px 0px 11px 4px rgba(0, 0, 0, 0.68);
+  -moz-box-shadow: 0px 0px 11px 4px rgba(0, 0, 0, 0.68);
+  background-color: #00072d;
+  width: 80%;
+  margin: auto;
+  margin-top: 5rem;
+  height: auto;
+  min-height: 30rem;
+  padding: 2rem;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.heading {
+  border: 1px solid black;
+  margin: 0;
+  padding: 1rem;
+  color: white;
+}
+.body {
+  display: flex;
+  flex-grow: 1;
+}
+
+.left,
+.right {
+  width: 30%;
+}
+.center {
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.centerInput {
+  height: 8rem;
+  width: 80%;
+  border-radius: 0.5rem;
+  outline: none;
+  border: none;
+  cursor: text;
+  text-align: center;
+}
+
+.centerButton {
+  width: 80%;
+  border-radius: 0.5rem;
+  margin-top: 5px;
+  background-color: #0a2472;
+  outline: none;
+  border: none;
+  height: 3rem;
+  color: white;
+  cursor: pointer;
+}
+
+.taskCard {
+  width: 90%;
+  margin: auto;
+  background-color: #001c55;
+  min-height: 8rem;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #0e6ba8;
+}
+
+.taskCardText {
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 5px;
+  border: 1px solid #0e6ba8;
+  background-color: #00143d;
+  height: 3rem;
+}
+
+.taskCardButton {
+  display: flex;
+}
+.taskCardUpdate {
+  display: flex;
+  flex-direction: column;
+}
+.taskCardUpdatebutton {
+  width: 80%;
+  margin: auto;
+  background-color: #0e6ba8;
+  margin-top: 5px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  color: white;
+  height: 1.5rem;
+}
+.taskCardComplete,
+.taskCardDelete {
+  width: 50%;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin: 5px;
+  color: white;
+  height: 1.5rem;
+}
+
+.taskCardDelete {
+  background-color: red;
+}
+.taskCardComplete {
+  background-color: #0ead69;
+}
+
+.taskCardUpdate input {
+  height: 1.5rem;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background-color: #cad9e3;
+}
+
+.taskCardUpdatebutton:disabled {
+  background-color: #0a2472;
+  color: gray;
+}
+
+.taskCardComplete:disabled {
+  background-color: #085e39;
+  color: gray;
+}
